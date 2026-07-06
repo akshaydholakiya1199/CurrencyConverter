@@ -1,4 +1,6 @@
-const BASE_URL = "https://2024-03-06.currency-api.pages.dev/v1/currencies"; //API Base URL
+const BASE_URL = "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies"; //API Base URL
+
+
 
 //accessing html elements
 const dropdown = document.querySelectorAll(".dropdown select");
