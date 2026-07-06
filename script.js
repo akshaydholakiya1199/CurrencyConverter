@@ -1,5 +1,4 @@
-const BASE_URL = "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies"; //API Base URL
-
+const BASE_URL = "https://api.exchangerate-api.com/v4/latest"; //API Base URL
 
 
 //accessing html elements
@@ -38,7 +37,7 @@ const updateExchangeRate = async () => {
         amount.value = "1" ;
     }
 
-   const URL = `${BASE_URL}/${fromCurr.value.toLowerCase()}.json`;
+   const URL = `${BASE_URL}/${fromCurr.value.toLowerCase()}`;
 
    fromCurrToLower = fromCurr.value.toLowerCase();
    toCurrToLower = toCurr.value.toLowerCase();
